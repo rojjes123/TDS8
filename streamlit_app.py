@@ -2,9 +2,9 @@
 import streamlit as st
 
 def largest_number(a, b, c):
-    ""
+    """
     Returns the largest number among three given numbers
-    ""
+    """
     if a >= b and a >= c:
         return a
     elif b >= a and b >= c:
