@@ -24,7 +24,7 @@ def main():
     c = st.number_input("Enter the third number:")
 
     # Call the function to get the largest number
-    largest = largest_number(a, b, c)
+    largest = largest_number int(a, b, c)
 
     if st.button('Find Largest'):
         
