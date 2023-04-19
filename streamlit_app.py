@@ -1,16 +1,16 @@
 # TDS8
 import streamlit as st
 
-def largest_number (int(a), int(b), int(c)):
+def largest_number (a, b, c):
     """
     Returns the largest number among three given numbers
     """
-    if int(a) >= int(b) and int(a) >= int(c):
-        return int(a)
-    elif int(b) >= int(a) and int(b) >= int(c):
-        return int(b)
+    if a >= b and a >= c:
+        return a
+    elif b >= a and b >= c:
+        return b
     else:
-        return int(c)
+        return c
 
 def main():
     """
