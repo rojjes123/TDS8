@@ -1,7 +1,7 @@
 # TDS8
 import streamlit as st
 
-def largest_number(a, b, c):
+def largest_number (int(a), int(b), int(c)):
     """
     Returns the largest number among three given numbers
     """
@@ -24,7 +24,7 @@ def main():
     c = st.number_input("Enter the third number:")
 
     # Call the function to get the largest number
-    largest = largest_number int(a, b, c)
+    largest = largest_number (int(a), int(b), int(c))
 
     if st.button('Find Largest'):
         
