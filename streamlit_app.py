@@ -26,7 +26,7 @@ def main():
     # Call the function to get the largest number
     largest = largest_number(a, b, c)
 
-    if st.button('Say hello'):
+    if st.button('Press'):
         
 
     # Display the result
