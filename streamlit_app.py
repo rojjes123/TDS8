@@ -26,11 +26,11 @@ def main():
     # Call the function to get the largest number
     largest = largest_number(a, b, c)
 
-if st.button('Say hello'):
-    st.write('Why hello there')
+    if st.button('Say hello'):
+        
 
     # Display the result
-    st.write("The largest number is:", largest)
+         st.write("The largest number is:", largest)
 
 if __name__ == '__main__':
     main()
