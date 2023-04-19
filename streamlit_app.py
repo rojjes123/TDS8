@@ -19,7 +19,7 @@ def main():
     This function defines the Streamlit app UI and logic.
     """
     st.title("Find the Largest Number ")
-    st.header('Enter three numbers and find the largest among them.')
+    st.h5('Enter three numbers and find the largest among them.')
     num1 = st.number_input("Enter the first  number", value=0, step=1)
     num2 = st.number_input("Enter the second  number", value=0, step=1)
     num3 = st.number_input("Enter the third  number", value=0, step=1)
