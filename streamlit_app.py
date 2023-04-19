@@ -2,9 +2,9 @@
 import streamlit as st
 
 def largest_number(a, b, c):
-    """
+    ""
     Returns the largest number among three given numbers
-    """
+    ""
     if a >= b and a >= c:
         return a
     elif b >= a and b >= c:
@@ -26,7 +26,7 @@ def main():
     # Call the function to get the largest number
     largest = largest_number(a, b, c)
 
-    if st.button('Press'):
+    if st.button('Find Largest'):
         
 
     # Display the result
